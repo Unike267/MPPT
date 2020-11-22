@@ -45,7 +45,7 @@ flag dut1
 
 wire [2:0] state;
 wire [1:0] flag_o;
-wire [2:0] nstate;
+wire [2:0] nstate; //nstate significa nextstate o estado siguiente
 
 regi dut2
 (
