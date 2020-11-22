@@ -4,8 +4,8 @@ set -e
 
 cd $(dirname "$0")
 
-iverilog nucleo_top.v cnt_iter.v  flag.v regi.v dec.v -o nucleo_demo
+iverilog -o nucleo_demo test/tb.v src/cnt_iter.v src/flag.v src/regi.v src/dec.v
 
 vvp nucleo_demo -lxt2
 
-gtkwave dump.lx2
+#gtkwave dump.lx2
