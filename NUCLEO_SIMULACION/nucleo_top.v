@@ -8,7 +8,7 @@ initial begin
         clk=0;
         forever begin
             #10
-            clk = ~clk; //clk a 1/20x10^⁻6 = 50MHz
+            clk = ~clk; //clk a 1/20x10^⁻9 = 50MHz
         end
 end
 
