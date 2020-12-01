@@ -9,9 +9,9 @@ El procedimiento del diseño está al margen de este repositorio. Es consecuenci
 ### SIMULACIÓN
 
 Se realizarán 3 simulaciones, agregadas en las 3 carpetas de simulación del repositorio:
-    - Simulación del núcleo del diseño
-    - Simulación en lazo abierto del diseño completo.
-    - Simulación en lazo cerrado del diseño completo.
+- Simulación del núcleo del diseño
+- Simulación en lazo abierto del diseño completo.
+- Simulación en lazo cerrado del diseño completo.
 
 ### IMPLEMENTACIÓN
 
