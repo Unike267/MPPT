@@ -8,10 +8,11 @@ El procedimiento del diseño está al margen de este repositorio. Es consecuenci
 
 ### SIMULACIÓN
 
-Para realizar la simulación del diseño se describirá la arquitectura dividida en tres módulos: NÚCLEO, OPERACIONES y PWM_MODULE.
-Una vez comprobado el funcionamiento de cada uno de los módulos por separado, se realizará el conjunto y se comprobará en simulación.
-Para comprobar en simulación el correcto funcionamiento de los códigos en verilog elaborados se utilizará el visualizador GTKWAVE.
+Se realizarán 3 simulaciones, agregadas en las 3 carpetas de simulación del repositorio:
+    - Simulación del núcleo del diseño
+    - Simulación en lazo abierto del diseño completo.
+    - Simulación en lazo cerrado del diseño completo.
 
 ### IMPLEMENTACIÓN
 
-La implementación se abordará desde el programa ice-studio y la FPGA donde se trasladará la arquitectura final sera la ICE40 de Lattice.
+La implementación se abordará desde el programa ice-studio y la FPGA donde se trasladará la arquitectura final será la ICE40 de Lattice.
