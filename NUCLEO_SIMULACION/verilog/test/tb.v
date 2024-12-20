@@ -1,5 +1,5 @@
 `timescale 1ns/10ps
-module nucleo_top;
+module tb;
 
 reg clk;
 reg rst;
@@ -52,7 +52,7 @@ regi dut2
     .clk    (clk),
     .rst    (rst),
     .nstate (nstate[2:0]),
-    .flag_i (flag_i[1:0]),    
+    .flag_i (flag_i[1:0]),
     .state  (state[2:0]),
     .flag_o (flag_o[1:0])
 );
