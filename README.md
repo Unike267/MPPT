@@ -16,3 +16,7 @@ Se realizarán 3 simulaciones, agregadas en las 3 carpetas de simulación del re
 ### IMPLEMENTACIÓN
 
 La implementación se abordará desde el programa ice-studio y la FPGA donde se trasladará la arquitectura final será la ICE40 de Lattice.
+
+### TFG
+
+El documento del TFG está accesible mediante el siguiente enlace [TFG_Sainz_Estebanez](https://drive.google.com/file/d/1ZpMiPWX3I9RQ2WWfaV1uhH9WwCnN4hH6/view?usp=drive_link)
